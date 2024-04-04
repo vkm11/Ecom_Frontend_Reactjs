@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Playfair Display SC', serif;*/ /* navigation purpose */
+/* font-family: 'Poppins', sans-serif; */ /* heading purpose */
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 10px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+.nav-link {
+  font-weight: 300 !important;
+}
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+.footer a {
+  text-decoration: none !important;
+  color: white;
+  padding: 5px;
+}
+.footer a:hover {
+  columns: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+.shopimage {
+  display: block;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+/* Contact-us page */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Register Page */
+
+.midcardLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.midcardLogin .forgot:hover{
+  border-bottom: 2px solid rgb(4, 92, 223);
+  padding-bottom: 5px;
+  cursor: pointer;
+  /* color: ; */
+}
+#navbarTogglerDemo01 ul li .nav-link{
+  color: white;
+}
